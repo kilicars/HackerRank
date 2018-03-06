@@ -1,0 +1,25 @@
+First observation was there were only two groups: RB and GW. So each number in the array would be element of one of these. 
+As there are only two groups and we can move from any number in one group to any number in the other group and we can start anywhere(in choosing the first group and element), if we sort the elements of the array and give a color specifying the group 
+then we can find the length of LIS from this color sequence.
+
+I will explain this by the sample I have made up:
+
+11
+WBGRWBBGBRW
+1000 3 858 100000 36 37 38 39 103 105 1
+    
+The elements in the first list (R) are:
+3 37 38 103 105 100000
+The elements in the second list (G) are: 
+1 36 39 858 1000
+    
+After sorting the array we get:
+1 3 36 37 38 39 103 105  858 1000 100000
+G R  G  R  R  G   R   R    G   G       R
+
+First, we see that we cannot use both 37 and 38 as they are in the same group(like 103-105 and 858-1000) in the increasing subsequence so our first result = 8.
+    
+Next, one can observe that if she takes one of the excess Gs in between of excess R.s or vice versa then she can increase the length of the increasing subsequence. 
+    
+For this example there are 2 excess Rs and 1 excess G. So if we take one excess G(say 858) and put it between excess 
+Rs(say between 37 and 38) then our result becomes 9. This the end because no more excess G left.
