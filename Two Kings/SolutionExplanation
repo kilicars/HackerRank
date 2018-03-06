@@ -1,0 +1,13 @@
+We know that queen is a powerful piece and it is like union of bishop and rook. 
+Since the problem only wants the number of necassary pieces not the types of them, we can ignore bishop and rook. 
+Knight is a piece with a limited funcitonality so at the beginning I decided to try solutions with 1, 2 and 3 queens.
+
+So algorithm works like this:
+- First we try one queen.
+- There are 64 (minus white kings' positions) to try
+- For each position we first put the Q in that square
+- We control if each of the white kings are in check position at this placement
+- Each king has 8 places to escape
+- For each move we control if both kings are still in check position.
+- If we find a placement that meets all the necessary conditions then we print the result.
+- Else we continue and try for 2Qs and 3Qs.
