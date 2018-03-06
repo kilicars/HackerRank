@@ -1,0 +1,1 @@
+This problem was asked in Moody's Analytics Fall University CodeSprint and the problem description can be found [here](https://www.hackerrank.com/contests/moodys-analytics-fall-university-codesprint/challenges/lets-play-a-game-2)
