@@ -1,6 +1,9 @@
-Let k = 3 as in the sample. Then our set is {1,2,3}. Think it as a tree with root 1. Then the leaves of 1 can be 2 and 3. 
-In the next level, 2 can have children 1 and 3 and 3 has children 1 and 2. This tree can grow until we reach the level = n. 
-Then we look at the leaves and we count the leaves with the number x on it.(You'll see it better if you draw the tree on a paper)
+Let k = 3 as in the sample. Then our set is {1,2,3}. 
+Think it as a tree with root 1. Then the leaves of 1 can be 2 and 3. 
+In the next level, 2 can have children 1 and 3 and 3 has children 1 and 2. 
+This tree can grow until we reach the level = n. 
+Then we look at the leaves and we count the leaves with the number x on it.
+(You'll see it better if you draw the tree on a paper)
 
 Now let's count the number of 1s,2s and 3s at each level
 
@@ -20,3 +23,5 @@ And let's call count of 1 as "b".
 So we can generalize the formula as
 b(at current level) = (k - 1) * a(at prev level)
 a(at current level) = (k - 2) * a(at prev level) + b(at prev level)
+
+Please check the ConstructArray.cs for the code.
