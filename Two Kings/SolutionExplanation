@@ -11,3 +11,5 @@ So algorithm works like this:
 - For each move we control if both kings are still in check position.
 - If we find a placement that meets all the necessary conditions then we print the result.
 - Else we continue and try for 2Qs and 3Qs.
+
+Please check TwoKings.cs for the code.
