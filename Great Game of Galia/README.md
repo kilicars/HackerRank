@@ -1,0 +1,1 @@
+This problem was asked in Morgan Stanley Campus Codeathon 2017 and the problem description can be seen from [here](https://www.hackerrank.com/contests/morgan-stanley-codeathon-2017/challenges/the-great-game-of-galia)
