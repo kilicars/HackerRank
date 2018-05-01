@@ -1,0 +1,1 @@
+This is an implementation using Segment Tree based on the [editorial explanation](https://www.hackerrank.com/contests/womens-codesprint-5/challenges/tsunami/editorial) of the problem.
